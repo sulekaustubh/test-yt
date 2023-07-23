@@ -54,44 +54,5 @@
                 }
             ]
         }
-    ],
-    "dsa": [
-        {
-            "id": "easy",
-            "title": "Easy",
-            "logo": "easy.webp",
-            "lastUpdated": "15th June 2023",
-            "body": [
-                {
-                    "id": 1,
-                    "name": "nth ELEMENT",
-                    "question": "Write a function that takes an array and a natural number 'n' as arguements. Make a new array consisting of every nth element of the input array.",
-
-                    "input1": "arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
-                    "output1": "[2, 4, 6, 8, 10]",
-
-                    "input2": "arr = [4, 7, 9, 2, 5, 11, 6]",
-                    "output2": "[9, 11]",
-
-                    "answer": "function everyNthElemement(arr, n) {\n    let newArr = [];\n    let count = 0;\n\n    for (i = 0; i < arr.length; i++) {\n        count++;\n        if (count == n) {\n            newArr.push(arr[i]);\n            count = 0;\n        }\n    }\n\n    console.log(newArr);\n}\n\neveryNthElemement([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2); // [ 2, 4, 6, 8, 10 ]\neveryNthElemement([4, 7, 9, 2, 5, 11, 6], 3); // [ 9, 11 ]"
-                }
-            ]
-        }
-    ],
-    "interview": [
-        {
-            "id": "javascript",
-            "title": "JavaScript",
-            "logo": "javascript.webp",
-            "description": "JavaScript is a versatile language for building interactive web applications. It runs in the browser and enables real-time updates and user interactivity.",
-            "lastUpdated": "5th June 2023",
-            "body": [
-                {
-                    "id": 1,
-                    "question": "What are the different kind of data-types available in JavaScript ?",
-                    "answer": "Here are the different data types in JavaScript classified based on whether they are primitive or non-primitive:\nPrimitive Data Types:\n-Number\n-String\n-Boolean\n-Null\n-Undefined\n-Symbol\n\nNon-Primitive Data Types:\n-Object\n-Array\n-Function\n-Date\n-RegExp\n\nThe primitive data types are atomic and immutable, meaning they are directly assigned and stored by value. On the other hand, non-primitive data types are mutable and are stored by reference."
-                }
-            ]
-        }
     ]
 }
