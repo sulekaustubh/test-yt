@@ -59,6 +59,66 @@
                     "optD": "17th July 2019"
                 }
             ]
+        },
+        {
+            "id": "TechGeeks",
+            "title": "TechGeeks",
+            "body": [
+                {
+                    "id": 1,
+                    "name": "Michael Anderson",
+                    "optA": "United States of America",
+                    "optB": "San Francisco",
+                    "optC": "20th January 2015",
+                    "optD": "12th August 2019"
+                },
+                {
+                    "id": 2,
+                    "name": "Sophie Chen",
+                    "optA": "China",
+                    "optB": "Beijing",
+                    "optC": "6th December 2013",
+                    "optD": "25th October 2017"
+                },
+                {
+                    "id": 3,
+                    "name": "Hans Müller",
+                    "optA": "Germany",
+                    "optB": "Berlin",
+                    "optC": "17th July 2010",
+                    "optD": "3rd November 2016"
+                }
+            ]
+        },
+        {
+            "id": "TravelExplorers",
+            "title": "Travel Explorers",
+            "body": [
+                {
+                    "id": 1,
+                    "name": "Emily Johnson",
+                    "optA": "Canada",
+                    "optB": "Vancouver",
+                    "optC": "14th March 2012",
+                    "optD": "9th September 2018"
+                },
+                {
+                    "id": 2,
+                    "name": "Sébastien Dupont",
+                    "optA": "France",
+                    "optB": "Paris",
+                    "optC": "22nd April 2014",
+                    "optD": "11th December 2019"
+                },
+                {
+                    "id": 3,
+                    "name": "Ravi Patel",
+                    "optA": "India",
+                    "optB": "Mumbai",
+                    "optC": "8th November 2011",
+                    "optD": "30th July 2017"
+                }
+            ]
         }
     ]
 }
