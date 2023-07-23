@@ -3,10 +3,6 @@
         {
             "id": "GhostRider",
             "title": "GhostRider",
-            "logo": "javascript.webp",
-            "description": "JavaScript is a versatile language for building interactive web applications. It runs in the browser and enables real-time updates and user interactivity.",
-            "lastUpdated": "3rd June 2023",
-
             "body": [
                 {
                     "id": 1,
@@ -14,9 +10,7 @@
                     "optA": "United States of America",
                     "optB": "New York",
                     "optC": "12th June 2011",
-                    "optD": "7th October 2019",
-                    "answer": "Object-based",
-                    "reason": "For any programming language to be classified as object-oriented, it must have proper characteristics of an object-oriented programming language, such as polymorphism, encapsulation, inheritance, etc. And JavaScript does not have that. However, JavaScript does treat objects like data structures, hence it classifies as object-based."
+                    "optD": "7th October 2019"
                 },
                 {
                     "id": 2,
@@ -24,9 +18,7 @@
                     "optA": "Canada",
                     "optB": "Toronto",
                     "optC": "17th September 2010",
-                    "optD": "6th November 2019",
-                    "answer": "Window",
-                    "reason": "All client-side JavaScript features and APIs are accessed through the Window object. It represents a web browser's window or frame, and the identifier Window can be used to refer to it."
+                    "optD": "6th November 2019"
                 },
                 {
                     "id": 3,
@@ -34,9 +26,7 @@
                     "optA": "Australia",
                     "optB": "Sydney",
                     "optC": "5th July 2008",
-                    "optD": "21st December 2014",
-                    "answer": "A way to move variables and functions to the top of their respective scopes",
-                    "reason": "Hoisting in JavaScript is the behavior of moving variables and function declarations to the top of their respective scopes (either the global scope or the local scope of a function). JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables ( let and const excluded ) or classes to the top of their scope, prior to execution of the code."
+                    "optD": "21st December 2014"
                 },
                 {
                     "id": 4,
@@ -44,9 +34,7 @@
                     "optA": "Germany",
                     "optB": "Berlin",
                     "optC": "15th March 2016",
-                    "optD": "22nd October 2018",
-                    "answer": "A function that is enclosed with references to its lexical environment",
-                    "reason": "A closure is a function that is enclosed with references to its lexical environment. A closure allows an inner function to access the scope of an outside function. Closures are formed every time a function is created in JavaScript, during function creation time."
+                    "optD": "22nd October 2018"
                 },
                 {
                     "id": 5,
@@ -54,9 +42,7 @@
                     "optA": "France",
                     "optB": "Paris",
                     "optC": "30th January 2012",
-                    "optD": "9th August 2015",
-                    "answer": "Ignores the statement",
-                    "reason": "In JavaScript, when the interpreter encounters an empty statement, it normally ignores or does not respond to that empty statement. The empty statement is sometimes useful, such as for creating loops for nothing."
+                    "optD": "9th August 2015"
                 },
                 {
                     "id": 6,
@@ -64,9 +50,7 @@
                     "optA": "China",
                     "optB": "Beijing",
                     "optC": "8th May 2015",
-                    "optD": "25th November 2020",
-                    "answer": "It is an ordered list of values",
-                    "reason": "An array in JavaScript is an ordered list of values, each value is referred to as an element, and it is identified by an index. An array can include values of many sorts, and the length of an array is dynamically sized."
+                    "optD": "25th November 2020"
                 }
             ]
         }
