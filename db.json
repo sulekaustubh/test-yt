@@ -1,184 +1,111 @@
 {
     "mcqs": [
         {
-            "id": "PriestPlays",
-            "title": "PriestPlays",
+            "id": "GhostRider",
+            "title": "GhostRider",
+            "logo": "javascript.webp",
+            "description": "JavaScript is a versatile language for building interactive web applications. It runs in the browser and enables real-time updates and user interactivity.",
+            "lastUpdated": "3rd June 2023",
+
             "body": [
                 {
                     "id": 1,
-                    "name": "Richard Johannson",
+                    "name": "John Doe",
                     "optA": "United States of America",
-                    "optB": "Newyork",
+                    "optB": "New York",
                     "optC": "12th June 2011",
-                    "optD": "7th October 2019"
+                    "optD": "7th October 2019",
+                    "answer": "Object-based",
+                    "reason": "For any programming language to be classified as object-oriented, it must have proper characteristics of an object-oriented programming language, such as polymorphism, encapsulation, inheritance, etc. And JavaScript does not have that. However, JavaScript does treat objects like data structures, hence it classifies as object-based."
                 },
                 {
                     "id": 2,
-                    "name": "Nick Fury",
+                    "name": "Jane Smith",
                     "optA": "Canada",
-                    "optB": "Tornto",
-                    "optC": "12th June 2017",
-                    "optD": "7th October 2021"
+                    "optB": "Toronto",
+                    "optC": "17th September 2010",
+                    "optD": "6th November 2019",
+                    "answer": "Window",
+                    "reason": "All client-side JavaScript features and APIs are accessed through the Window object. It represents a web browser's window or frame, and the identifier Window can be used to refer to it."
                 },
                 {
                     "id": 3,
-                    "question": "Michael Smith",
+                    "name": "Robert Johnson",
                     "optA": "Australia",
                     "optB": "Sydney",
-                    "optC": "15th August 2013",
-                    "optD": "5th June 2016"
+                    "optC": "5th July 2008",
+                    "optD": "21st December 2014",
+                    "answer": "A way to move variables and functions to the top of their respective scopes",
+                    "reason": "Hoisting in JavaScript is the behavior of moving variables and function declarations to the top of their respective scopes (either the global scope or the local scope of a function). JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables ( let and const excluded ) or classes to the top of their scope, prior to execution of the code."
                 },
                 {
                     "id": 4,
-                    "question": "Maria Rodriguez",
-                    "optA": "Spain",
-                    "optB": "Barcelona",
-                    "optC": "2nd December 2014",
-                    "optD": "10th September 2018"
+                    "name": "Michael Brown",
+                    "optA": "Germany",
+                    "optB": "Berlin",
+                    "optC": "15th March 2016",
+                    "optD": "22nd October 2018",
+                    "answer": "A function that is enclosed with references to its lexical environment",
+                    "reason": "A closure is a function that is enclosed with references to its lexical environment. A closure allows an inner function to access the scope of an outside function. Closures are formed every time a function is created in JavaScript, during function creation time."
                 },
                 {
                     "id": 5,
-                    "question": "John Lee",
-                    "optA": "South Korea",
-                    "optB": "Seoul",
-                    "optC": "21st May 2012",
-                    "optD": "8th November 2017"
+                    "name": "Sophia Lee",
+                    "optA": "France",
+                    "optB": "Paris",
+                    "optC": "30th January 2012",
+                    "optD": "9th August 2015",
+                    "answer": "Ignores the statement",
+                    "reason": "In JavaScript, when the interpreter encounters an empty statement, it normally ignores or does not respond to that empty statement. The empty statement is sometimes useful, such as for creating loops for nothing."
                 },
                 {
                     "id": 6,
-                    "question": "Linda Nguyen",
-                    "optA": "Vietnam",
-                    "optB": "Ho Chi Minh City",
-                    "optC": "17th July 2015",
-                    "optD": "20th April 2020"
-                },
-                {
-                    "id": 7,
-                    "question": "Robert Kim",
-                    "optA": "United Kingdom",
-                    "optB": "London",
-                    "optC": "12th September 2016",
-                    "optD": "18th March 2022"
-                },
-                {
-                    "id": 8,
-                    "question": "Emily Johnson",
-                    "optA": "United States of America",
-                    "optB": "Los Angeles",
-                    "optC": "9th November 2013",
-                    "optD": "14th May 2019"
-                },
-                {
-                    "id": 9,
-                    "question": "David Lee",
-                    "optA": "Canada",
-                    "optB": "Toronto",
-                    "optC": "5th March 2012",
-                    "optD": "22nd October 2015"
-                },
-                {
-                    "id": 10,
-                    "question": "Sophia Martinez",
-                    "optA": "Mexico",
-                    "optB": "Mexico City",
-                    "optC": "18th April 2017",
-                    "optD": "3rd September 2021"
-                },
-                {
-                    "id": 11,
-                    "question": "Daniel Wang",
+                    "name": "William Garcia",
                     "optA": "China",
                     "optB": "Beijing",
-                    "optC": "20th June 2018",
-                    "optD": "11th December 2022"
-                },
+                    "optC": "8th May 2015",
+                    "optD": "25th November 2020",
+                    "answer": "It is an ordered list of values",
+                    "reason": "An array in JavaScript is an ordered list of values, each value is referred to as an element, and it is identified by an index. An array can include values of many sorts, and the length of an array is dynamically sized."
+                }
+            ]
+        }
+    ],
+    "dsa": [
+        {
+            "id": "easy",
+            "title": "Easy",
+            "logo": "easy.webp",
+            "lastUpdated": "15th June 2023",
+            "body": [
                 {
-                    "id": 12,
-                    "question": "Ava Patel",
-                    "optA": "India",
-                    "optB": "Mumbai",
-                    "optC": "7th October 2015",
-                    "optD": "2nd March 2020"
-                },
+                    "id": 1,
+                    "name": "nth ELEMENT",
+                    "question": "Write a function that takes an array and a natural number 'n' as arguements. Make a new array consisting of every nth element of the input array.",
+
+                    "input1": "arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]",
+                    "output1": "[2, 4, 6, 8, 10]",
+
+                    "input2": "arr = [4, 7, 9, 2, 5, 11, 6]",
+                    "output2": "[9, 11]",
+
+                    "answer": "function everyNthElemement(arr, n) {\n    let newArr = [];\n    let count = 0;\n\n    for (i = 0; i < arr.length; i++) {\n        count++;\n        if (count == n) {\n            newArr.push(arr[i]);\n            count = 0;\n        }\n    }\n\n    console.log(newArr);\n}\n\neveryNthElemement([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 2); // [ 2, 4, 6, 8, 10 ]\neveryNthElemement([4, 7, 9, 2, 5, 11, 6], 3); // [ 9, 11 ]"
+                }
+            ]
+        }
+    ],
+    "interview": [
+        {
+            "id": "javascript",
+            "title": "JavaScript",
+            "logo": "javascript.webp",
+            "description": "JavaScript is a versatile language for building interactive web applications. It runs in the browser and enables real-time updates and user interactivity.",
+            "lastUpdated": "5th June 2023",
+            "body": [
                 {
-                    "id": 13,
-                    "question": "Ethan Wilson",
-                    "optA": "New Zealand",
-                    "optB": "Auckland",
-                    "optC": "14th November 2012",
-                    "optD": "9th July 2017"
-                },
-                {
-                    "id": 14,
-                    "question": "Olivia Brown",
-                    "optA": "Brazil",
-                    "optB": "Rio de Janeiro",
-                    "optC": "30th December 2017",
-                    "optD": "22nd August 2022"
-                },
-                {
-                    "id": 15,
-                    "question": "James Kim",
-                    "optA": "South Korea",
-                    "optB": "Busan",
-                    "optC": "25th January 2013",
-                    "optD": "10th September 2018"
-                },
-                {
-                    "id": 16,
-                    "question": "Isabella Li",
-                    "optA": "China",
-                    "optB": "Shanghai",
-                    "optC": "16th March 2014",
-                    "optD": "20th November 2019"
-                },
-                {
-                    "id": 17,
-                    "question": "Alexander Nguyen",
-                    "optA": "Vietnam",
-                    "optB": "Hanoi",
-                    "optC": "9th July 2011",
-                    "optD": "15th April 2016"
-                },
-                {
-                    "id": 18,
-                    "question": "Charlotte Garcia",
-                    "optA": "Spain",
-                    "optB": "Madrid",
-                    "optC": "2nd September 2012",
-                    "optD": "11th May 2017"
-                },
-                {
-                    "id": 19,
-                    "question": "Mason Martin",
-                    "optA": "Canada",
-                    "optB": "Vancouver",
-                    "optC": "17th November 2015",
-                    "optD": "28th July 2020"
-                },
-                {
-                    "id": 20,
-                    "question": "Amelia Wilson",
-                    "optA": "United States of America",
-                    "optB": "Chicago",
-                    "optC": "10th April 2013",
-                    "optD": "12th December 2018"
-                },
-                {
-                    "id": 21,
-                    "question": "Lucas Martinez",
-                    "optA": "Argentina",
-                    "optB": "Buenos Aires",
-                    "optC": "26th August 2014",
-                    "optD": "17th June 2019"
-                },
-                {
-                    "id": 22,
-                    "question": "Harper Kim",
-                    "optA": "South Korea",
-                    "optB": "Incheon",
-                    "optC": "12th February 2017",
-                    "optD": "30th October 2022"
+                    "id": 1,
+                    "question": "What are the different kind of data-types available in JavaScript ?",
+                    "answer": "Here are the different data types in JavaScript classified based on whether they are primitive or non-primitive:\nPrimitive Data Types:\n-Number\n-String\n-Boolean\n-Null\n-Undefined\n-Symbol\n\nNon-Primitive Data Types:\n-Object\n-Array\n-Function\n-Date\n-RegExp\n\nThe primitive data types are atomic and immutable, meaning they are directly assigned and stored by value. On the other hand, non-primitive data types are mutable and are stored by reference."
                 }
             ]
         }
